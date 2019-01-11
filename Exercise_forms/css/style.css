@@ -1,0 +1,108 @@
+/** Referencia a toda la pagina **/
+body{
+    background-image: url("../images/warhammer-40000.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+}
+/** Trabajaremos a continuacion sobre el header **/
+header{
+    margin:0;
+}
+#header{
+    float: left;
+    width: auto;
+    display: block;
+    margin: 0 50px;
+    text-align: center;
+}
+#logo{
+    float: right;
+    width: auto;
+    display: block;
+    margin: 0 50px;
+    text-align: center;
+}
+#header h1{
+    text-transform: uppercase;
+    margin: 0;
+}
+#header span{
+    text-transform: uppercase;
+}
+
+/** Vamos Con el Cuerpo de los diferentes archivos**/
+
+/** index**/
+#Presentacion{
+    text-align: center;
+    position: relative;
+    float: left;
+    margin: 5%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+#Presentacion #titulo h2{
+    margin: 0;
+    
+}
+#Presentacion #titulo span{
+    font-size: 0.75em;
+}
+
+#Exposicion{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+#ins{
+    width:10%;
+    text-align: center;
+    margin:auto;
+
+}
+#ins h3 a{
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px red; 
+    border-radius: 0.5em;
+}
+
+#ins h3 a:link{
+    color:white;
+}
+#ins h3 a:hover{
+    background-color: red;
+}
+#ins h3 a:visited{
+    color: white;
+}
+/** Instrucciones **/
+
+#todo{
+    text-align: center;
+    position: relative;
+    float: left;
+    margin: 5%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+#todo #Master{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+#todo #instrucciones{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+#todo #informacion{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+

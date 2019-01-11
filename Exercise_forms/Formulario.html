@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario: examen</title>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+    </head>
+    <body>
+        <header>
+            <div id = "header">
+                <h1>Examen Oficial Master Rol</h1>
+                <span>Conocimientos para dirigir cualquier partida de Rol</span>
+            </div>
+            <div id = "logo">
+                <img src = "images/logo.png">
+            </div>
+        </header>
+        <div id="Formulario">
+            <form action="Final.html" method="post">
+            
+                <h3>Concéntrese, seguro que los antiguos dioses estan velando por ti</h3>
+                    <div id = "pregunta1">
+                        <fieldset>
+                            <p>
+                                7º Mar es un juego de rol ambientado en nuesto mundo en los siglos XIV - XVIII. Este juego
+                                puede ser una combinación de otros juegos de rol, ambientados o no en esta misma época. Recuerda que 
+                                sigue siendo un mundo fantástico.<br>
+                                Entonces ¿Cuál de los siguientes juegos <strong>NO</strong> forma parte de este mundo?
+                            </p>
+                            <ul>
+                                <li><label><input type="radio" name="respuesta1" value="Leyenda 5 anillos"> Leyenda 5 anillos</label></li>
+                                <li><label><input type="radio" name="respuesta1" value="Arenas Ardientes"> Arenas Ardientes</label></li>
+                                <li><label><input type="radio" name="respuesta1" value="Rokugan"> Rokugan</label></li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta2">
+                        <fieldset>
+                            <p>
+                                En el siguiente video encontraremos una escena de la saga de Star Wars. Ya sabemos que es una pelicula, 
+                                pero como bien sabes hay un juego de rol sobre este tema.<br>
+                                Ahora bien, en términos de rol que ha efectuado el protagonista de la escena que ha desencadenado de tal forma.
+                            </p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/UlDiddequFA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <ul>
+                                <li><label><input type="radio" name="respuesta2" value="1 en dado"> 1 en dado</label></li>
+                                <li><label><input type="radio" name="respuesta2" value="Una mala decision"> Una mala decision</label></li>
+                                <li><label><input type="radio" name="respuesta2" value="Enfrentarse con dotes sin adquirir o bien no bien usadas"> Enfrentarse con dotes sin adquirir o bien no bien usadas</label></li>
+                                <li><label><input type="radio" name="respuesta2" value="Critico!"> Critico!</label></li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta3">
+                        <fieldset>
+                            <p>
+                                Muchos juegos de rol se efectuan con diferentes dados. Aunque digamos que no los necesitamos al final
+                                son de un uso casi imprescindible para la sensación máxima del juego. Entonces como bien sabrás cada juego
+                                tiene su sistema de dados. ¿Cuál de los siguientes juegos usa un sistema que se tiren tantos dados como la suma 
+                                del atributo y la habilidad que se va a efectuar y cogemos el atributo usado?
+                            </p>
+                            <ul>
+                                <li><label><input type="checkbox" name="respuesta3" value="Leyenda 5 anillos"> Leyenda 5 anillos</label></li>
+                                <li><label><input type="checkbox" name="respuesta3" value="Pathfinder"> Pathfinder</label></li>
+                                <li><label><input type="checkbox" name="respuesta3" value="Warhammer: Fantasy"> Warhammer: Fantasy</label></li>
+                                <li><label><input type="checkbox" name="respuesta3" value="Arenas Ardientes"> Arenas Ardientes</label></li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta4">
+                        <fieldset>
+                            <p>
+                                Esto es una pregunta de descripción de una situación.<br>
+                                Piense como Master como podría crear una situación donde todos los jugadores están en la misma escena,
+                                pero préviamente uno de ellos te ha dicho que no quiere seguir su personaje, que no le motiva.<br>
+                                Debe incluir desenlace del personaje previo, introducción del nuevo personaje y a situación donde se desarrolla
+                            </p>
+                            <textarea name = "story" rows = "10" cols = "60" maxlength="2500" placeholder="No se extienda demasiado, no queremos un nuevo testamento"></textarea>
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta5">
+                        <fieldset>
+                            <p>
+                                Introduciendonos un poco en el mundo de Warhammer: Dark Heresy.<br>
+                                Sabemos que es un mundo futurista de ambientación gótica, que debemos cumplir las exigencias
+                                de un inquisidor, bajo las ordenes de nuestro Dios Emperador de la humanidad.<br>
+                                Los jugadores acabamos temiendo más a los inquisidores que al mismisimo caos, ¿Con que nos suelen apuntar estos querido inquisidores?
+                            </p>
+                            <select name= "Arma">
+                                <option>Pistola Láser</option>
+                                <option>Escopeta</option>
+                                <option>Fusil Láser</option>
+                                <option>Cañon de plasma</option>
+                                <option>Bólter</option>
+                            </select>
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta6">
+                        <fieldset>
+                            <p>
+                                Referiendonos a las clases más antiguas de este arte, dirigiendonoso a nuestros origenes <em>Pathfinder y D&D</em>.<br>
+                                ¿Cuál es la clase que su moralidad es Legal Bueno por excelencia?
+                            </p>
+                            <input type="text" name="Paladin">
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta7">
+                        <fieldset>
+                            <p>
+                                Vamos a recordar un poco más <em>Pathfinder</em>.<br>
+                                En este universo recordamos muchas aventuras, unas por mar abierto, otras por vastas estepas, abruptas montañas, peligrosos desfiladeros y otros muchos paisajes.<br>
+                                Pero cuando nos referimos a miedo no es por el tiempo que estás en una misión, en busca de una princesa, ni por los temibles encuentros que pasas, tu
+                                temes que no aparezca una cosa. Esa terrible figura que oscurece el cielo, pero al mirar hacia arriba y ver su color es cuando todo nuestro ser se estremece.<br>
+                                ¿De qué color es el Dragón que hace que queramos o bien enfrentarnos a él por afán de superación o huir como almas condenadas?
+                            </p>
+                            <ul>
+                                <li><label><input type="radio" name="color" value="Dorado"> Dorado</label></li>
+                                <li><label><input type="radio" name="color" value="Azul"> Azul</label></li>
+                                <li><label><input type="radio" name="color" value="Rojo"> Rojo</label></li>
+                                <li><label><input type="radio" name="color" value="Plateado"> Plateado</label></li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta8">
+                        <fieldset>
+                            <p>
+                                En Warhammer: Dark herey, la gran mayoría de gente se saluda y se despide, en cualquier ámbito social.<br> 
+                                ¿De qué forma se saludan y se despiden?
+                            </p>
+                            <input type="text" name="Emperador">
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta9">
+                        <fieldset>
+                            <p>
+                                En Leyenda 5 anillos nos encontramos en la tierra fantástica de Rokugan, dónde encontramos samurais, magia, monstruos, entre otras cosas.<br>
+                                Al adentrarnos en ese mundo podemos elegir que queremos ser y en que gran casa pertenecer, ¿Cuál de las siguientes opciones pertenecen a este juego?
+                                <br>(<em>Puede haber más de una opción</em>)
+                            </p>
+                            <ul>
+                                <li><label><input type="checkbox" name="respuesta1" value="Grulla"> Grulla</label></li>
+                                <li><label><input type="checkbox" name="respuesta1" value="Sugenya"> Sugenya</label></li>
+                                <li><label><input type="checkbox" name="respuesta1" value="Matsu"> Matsu</label></li>
+                                <li><label><input type="checkbox" name="respuesta1" value="Cangrejo"> Cangrejo</label></li>
+                                <li><label><input type="checkbox" name="respuesta1" value="Kurosaki"> Kurosaki</label></li>
+                                <li><label><input type="checkbox" name="respuesta1" value="Leon"> Leon</label></li>
+                                <li><label><input type="checkbox" name="respuesta1" value="Conejo"> Conejo</label></li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div id = "pregunta10">
+                        <fieldset>
+                            <p>
+                                Esta es la útima pregunta del examen, esperamos que te haya ido bien y que los antiguos dioses (<em>Los grandes Másters</em>) te guien en
+                                esta nueva aventura que te espera.<br>
+                                Esta pregunta es un regalo por haber llegado hasta aqui y al fallar esta el examen queda anulado y sin posibilidad de repetirlo.<br>
+                                ¿Cuál es la función de un Master?
+                            </p>
+                            <ul>
+                                <li><label><input type="radio" name="respuesta1" value="Cabron"> Ser el dios que castiga a sus jugadores</label></li>
+                                <li><label><input type="radio" name="respuesta1" value="Indeciso"> Dirigir a los jugadores hacia una muerte inminente</label></li>
+                                <li><label><input type="radio" name="respuesta1" value="Bueno"> Dirigir de forma correcta una o varias seciones de cuaquier juego en concenso con los jugadores para que todos os divertáis</label></li>
+                                <li><label><input type="radio" name="respuesta1" value="Cruel"> Torturar a los jugadores con situacions inverosimiles y cambiar resultados para ganar tu</label></li>
+                            </ul>
+                        </fieldset>
+                    </div>
+            <p><input type="submit" value="Espero que haya ido bien"> <input type="reset"></p>
+            </form>
+        </div>
+    </body>
+</html>
