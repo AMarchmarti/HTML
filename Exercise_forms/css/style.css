@@ -59,7 +59,7 @@ header{
     margin: auto;
 }
 #ins{
-    width:10%;
+    width:20%;
     text-align: center;
     margin:auto;
 
@@ -106,4 +106,26 @@ header{
     margin: auto;
 }
 
+/** Formulario **/
 
+#Formulario{
+    text-align: center;
+    position: relative;
+    float: left;
+    margin: 1% 10% 5% 10%;
+    text-decoration: none;
+}
+#pregunta1, #pregunta2, #pregunta3, #pregunta4, #pregunta5, #pregunta6, #pregunta7, #pregunta8, #pregunta9, #pregunta10{
+    text-align: justify;
+    width: 80%;
+    margin: 0 152.250px 2% 152.34px;
+    background-color:rgba(0, 0, 0, 0.5);
+    
+}
+#pregunta1 ul, #pregunta2 ul, #pregunta3 ul, #pregunta7 ul, #pregunta9 ul, #pregunta10 ul{
+    list-style: none;
+
+}
+#pregunta2 #video{
+    text-align: center;
+}
