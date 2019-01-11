@@ -34,7 +34,7 @@ header{
     text-transform: uppercase;
 }
 
-#Presentacion, #todo{
+#Presentacion, #todo, #Final{
     text-align: center;
     position: relative;
     float: left;
@@ -50,7 +50,7 @@ header{
     font-size: 0.75em;
 }
 
-#Exposicion, #Master, #instrucciones, #informacion{
+#Exposicion, #Master, #instrucciones, #informacion, #Despedida{
     text-align: justify;
     width: 80%;
     margin: auto;
@@ -93,10 +93,53 @@ header{
     background-color:rgba(0, 0, 0, 0.5);
     
 }
-#pregunta1 ul, #pregunta2 ul, #pregunta3 ul, #pregunta7 ul, #pregunta9 ul, #pregunta10 ul{
+#pregunta1 ul, #pregunta2 ul, #pregunta3 ul, #pregunta7 ul, #pregunta9 ul, #pregunta10 ul, #personal ul, #adicional ul{
     list-style: none;
 
 }
 #pregunta2 #video{
     text-align: center;
+}
+footer{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin:25% 0 0 0 ;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+footer p{
+    width: 30%;
+    margin:0;
+    display: inline-block;
+}
+
+#personal, #adicional{
+    display: inline-block;
+    margin: 0 5%;
+
+}
+footer #personal ul li{
+    margin: 5% 0;
+}
+footer #adicional ul li{
+    margin: 15.031px 0;
+    width: 100%;
+
+}
+
+
+footer ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#adicional ul li a{
+    border: solid 2px red;
+    border-radius: 0.5em;
+    padding: 5% 0;
+}
+#personal ul li a:hover{
+    color: red;
+}
+#adicional ul li a:hover{
+    background-color: red;
 }
