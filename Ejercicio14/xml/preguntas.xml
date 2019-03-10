@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE questions SYSTEM "formulari.dtd">
+
+<questions>
+	<question>
+		<type>radio</type>
+		<title>1. ¿Cuál de los siguientes juegos NO forma parte de este mundo?</title>
+		<option>Leyenda 5 anillos</option>
+        <option>Arenas Ardientes</option>
+        <option>Rokugan</option>
+        <answer>2</answer>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>2. Ahora bien, en términos de rol que ha efectuado el protagonista de la escena que ha desencadenado de tal forma.</title>
+		<option>Pifia!</option>
+        <option>Ataque de Oportunidad</option>
+        <option>Enfrentarse con dotes sin adquirir o bien no bien usadas"> Enfrentarse con dotes sin adquirir o bien no bien usadas</option>
+        <option>Una mala decisión</option>
+        <answer>1</answer>
+	</question>
+	<question>
+		<type>select</type>
+		<title>3. ¿Cuál de los siguientes juegos usa un sistema que se tiren tantos dados como la suma del atributo y la habilidad que se va a efectuar y cogemos el atributo usado?</title>
+		<option>Pistola Láser</option>
+        <option>Escopeta</option>
+        <option>Fusil Láser</option>
+        <option>Cañon de plasma</option>
+        <option>Bólter</option>
+		<answer>4</answer> 
+	</question>
+	<question>
+		<type>select</type>
+		<title>4.  ¿De qué color es el Dragón que hace que queramos o bien enfrentarnos a él por afán de superación o huir como almas condenadas?</title>
+		<option>Dorado</option>
+        <option>Azul</option>
+        <option>Rojo</option>
+        <option>Plateado</option>
+		<answer>2</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>5. ¿Cuál de las siguientes opciones pertenecen a este juego?</title>
+		<option>Grulla</option>
+        <option>Sugenya</option>
+        <option>Matsu</option>
+        <option>Cangrejo</option>
+        <option>Kurosaki</option>
+        <option>Leon</option>
+        <option>Hida</option>
+		<answer>2</answer>
+		<answer>6</answer>
+	</question>
+	<question>
+		<type>multiple</type>
+		<title>6. ¿Cuál de los siguientes juegos usa un sistema que se tiren tantos dados como la suma del atributo y la habilidad que se va a efectuar y cogemos el atributo usado?</title>
+		<option>Leyenda 5 anillos</option>
+        <option>Pathfinder</option>
+        <option>Warhammer: Fantasy</option>
+        <option>Arenas Ardientes</option>
+        <answer>0</answer>
+        <answer>3</answer>
+	</question>
+	<question>
+		<type>text</type>
+		<title>7. ¿Cuál es la clase que su moralidad es Legal Bueno por excelencia?</title>
+		<answer>Paladin</answer>
+	</question>
+	<question>
+		<type>checkbox</type>
+		<title>8. Y en España te pueden multar por... (señala las verdaderas)</title>
+		<option>  ... conducir sin camiseta.</option>
+		<option>  ... conducir descalzo, con tacones o con chanclas.</option> 
+		<option>  ... conducir todo el tiempo por el carril izquierdo o el central estando libre el derecho.</option> 
+		<option>  ... apoyar el codo en la ventanilla.</option>
+		<option>  ... sacar el brazo por la ventanilla para saludar.</option>
+		<answer>0</answer>
+		<answer>1</answer>
+		<answer>2</answer>
+		<answer>4</answer>
+	</question>
+	<question>
+		<type>text</type>
+		<title>9. ¿De qué forma se saludan y se despiden?</title>
+		<answer>El emperador protge, el emperador provee</answer> 
+	</question>
+	</question>
+	<question>
+		<type>radio</type>
+		<title>10. ¿Cuál es la función de un Master?</title>
+		<option>Ser el dios que castiga a sus jugadores</option>
+        <option> Dirigir a los jugadores hacia una muerte inminente</option>
+        <option> Dirigir de forma correcta una o varias seciones de cuaquier juego en concenso con los jugadores para que todos os divertáis</option>
+        <option> Torturar a los jugadores con situacions inverosimiles y cambiar resultados para ganar tu</option>
+		<answer>2</answer>
+	</question>
+</questions>
