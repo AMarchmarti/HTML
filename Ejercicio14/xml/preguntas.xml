@@ -4,21 +4,14 @@
 
 <questions>
 	<question>
-		<type>radio</type>
-		<title>1. ¿Cuál de los siguientes juegos NO forma parte de este mundo?</title>
-		<option>Leyenda 5 anillos</option>
-        <option>Arenas Ardientes</option>
-        <option>Rokugan</option>
-        <answer>2</answer>
+	<type>text</type>
+		<title>1. ¿Cuál es la clase que su moralidad es Legal Bueno por excelencia?</title>
+		<answer>Paladin</answer>
 	</question>
 	<question>
-		<type>radio</type>
-		<title>2. Ahora bien, en términos de rol que ha efectuado el protagonista de la escena que ha desencadenado de tal forma.</title>
-		<option>Pifia!</option>
-        <option>Ataque de Oportunidad</option>
-        <option>Enfrentarse con dotes sin adquirir o bien no bien usadas"> Enfrentarse con dotes sin adquirir o bien no bien usadas</option>
-        <option>Una mala decisión</option>
-        <answer>1</answer>
+		<type>text</type>
+		<title>2. ¿De qué forma se saludan y se despiden?</title>
+		<answer>El emperador protge, el emperador provee</answer> 
 	</question>
 	<question>
 		<type>select</type>
@@ -63,9 +56,14 @@
         <answer>3</answer>
 	</question>
 	<question>
-		<type>text</type>
-		<title>7. ¿Cuál es la clase que su moralidad es Legal Bueno por excelencia?</title>
-		<answer>Paladin</answer>
+		<type>radio</type>
+		<title>7. ¿Cuál de los siguientes juegos NO forma parte de este mundo?</title>
+		<option>Pathfinder</option>
+		<option>Leyenda 5 anillos</option>
+        <option>Arenas Ardientes</option>
+        <option>Rokugan</option>
+		<answer>0</answer>
+        <answer>3</answer>
 	</question>
 	<question>
 		<type>checkbox</type>
@@ -81,9 +79,13 @@
 		<answer>4</answer>
 	</question>
 	<question>
-		<type>text</type>
-		<title>9. ¿De qué forma se saludan y se despiden?</title>
-		<answer>El emperador protge, el emperador provee</answer> 
+		<type>radio</type>
+		<title>9. Ahora bien, en términos de rol que ha efectuado el protagonista de la escena que ha desencadenado de tal forma.</title>
+		<option>Pifia!</option>
+        <option>Ataque de Oportunidad</option>
+        <option>Enfrentarse con dotes sin adquirir o bien no bien usadas"> Enfrentarse con dotes sin adquirir o bien no bien usadas</option>
+        <option>Una mala decisión</option>
+        <answer>1</answer>
 	</question>
 	<question>
 		<type>radio</type>

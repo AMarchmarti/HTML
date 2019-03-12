@@ -1,9 +1,5 @@
 var xhttp = new XMLHttpRequest();
-<<<<<<< HEAD
-var url = "xml/preguntas.xml"
-=======
 var url = "https://rawcdn.githack.com/AMarchmarti/HTML/d111ff4e2f925451673afd4d676286a1b8225352/Ejercicio14/xml/preguntas.xml";
->>>>>>> 8e8be19659f16c905c6d1ab175f117f0156a697d
 var xmlDoc = null;
 var preguntaXML;
 var preguntaHTML;
