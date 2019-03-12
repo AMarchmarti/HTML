@@ -11,7 +11,7 @@
 	<question>
 		<type>text</type>
 		<title>2. ¿De qué forma se saludan y se despiden?</title>
-		<answer>El emperador protge, el emperador provee</answer> 
+		<answer>El emperador protege, el emperador provee</answer> 
 	</question>
 	<question>
 		<type>select</type>
@@ -21,7 +21,7 @@
         <option>Fusil Láser</option>
         <option>Cañon de plasma</option>
         <option>Bólter</option>
-		<answer>4</answer> 
+		<answer>5</answer> 
 	</question>
 	<question>
 		<type>select</type>
@@ -30,7 +30,7 @@
         <option>Azul</option>
         <option>Rojo</option>
         <option>Plateado</option>
-		<answer>2</answer>
+		<answer>3</answer>
 	</question>
 	<question>
 		<type>multiple</type>
@@ -56,7 +56,7 @@
         <answer>3</answer>
 	</question>
 	<question>
-		<type>radio</type>
+		<type>checkbox</type>
 		<title>7. ¿Cuál de los siguientes juegos NO forma parte de este mundo?</title>
 		<option>Pathfinder</option>
 		<option>Leyenda 5 anillos</option>

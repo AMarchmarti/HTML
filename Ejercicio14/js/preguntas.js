@@ -1,5 +1,5 @@
 var xhttp = new XMLHttpRequest();
-var url = "https://rawcdn.githack.com/AMarchmarti/HTML/d111ff4e2f925451673afd4d676286a1b8225352/Ejercicio14/xml/preguntas.xml";
+var url = "https://rawcdn.githack.com/AMarchmarti/HTML/044e11344f181166ff407891b355e06052defc1e/Ejercicio14/xml/preguntas.xml";
 var xmlDoc = null;
 var preguntaXML;
 var preguntaHTML;
