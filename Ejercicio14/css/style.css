@@ -33,6 +33,28 @@ header{
 #header span{
     text-transform: uppercase;
 }
+#ins{
+    width:20%;
+    text-align: center;
+    margin:auto;
+
+}
+#ins h3 a{
+    text-align: center;
+    text-decoration: none;
+    border: solid 2px red; 
+    border-radius: 0.5em;
+}
+
+#ins h3 a:link{
+    color:white;
+}
+#ins h3 a:hover{
+    background-color: red;
+}
+#ins h3 a:visited{
+    color: white;
+}
 #barra{
     z-index: 4;
     width: 100%;
