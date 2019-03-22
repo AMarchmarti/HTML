@@ -168,10 +168,10 @@ option {
 #crono {
 	z-index: 6;
 	position: fixed; 
-    top:14.8%;
-	right: 10%;
-	width: 10%;
-	height: 3%;
+    top: 1%;
+    left: 60%;
+    width: 21%;
+    height: 6%;
 	background-color:rgba(0, 0, 0, 0.5);
 	border-style: solid;
 	border-color: #333333;
@@ -196,7 +196,7 @@ option {
 	width: 80%;
 	min-height: 63%;	
 	padding: 2%;
-    margin: 0 152.250px 2% 152.34px;
+    margin-left: 7%;
     background-color: rgba(0, 0, 0, 0.5);
     border-width: 2px;
 	border-radius: 10px;
