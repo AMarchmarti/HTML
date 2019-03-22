@@ -67,16 +67,18 @@
 	</question>
 	<question>
 		<type>checkbox</type>
-		<title>Y en España te pueden multar por... (señala las verdaderas)</title>
-		<option>  ... conducir sin camiseta.</option>
-		<option>  ... conducir descalzo, con tacones o con chanclas.</option> 
-		<option>  ... conducir todo el tiempo por el carril izquierdo o el central estando libre el derecho.</option> 
-		<option>  ... apoyar el codo en la ventanilla.</option>
-		<option>  ... sacar el brazo por la ventanilla para saludar.</option>
+		<title>Cuál de las siguientes frases NO forma parte del código Jedi</title>
+		<option>  La fuerza me liberará</option>
+		<option> No hay ignorancia, hay conocimiento.</option> 
+		<option>  Con la armonía obtengo la victoria.</option> 
+		<option>  No hay caos, hay armonía.</option>
+		<option>  La paz y la pasión me dan fortaleza.</option>
+		<option> Con el poder, obtengo la victoria.</option>
+		<option> No hay muerte, hay fuerza.</option>
 		<answer>0</answer>
-		<answer>1</answer>
 		<answer>2</answer>
 		<answer>4</answer>
+		<answer>5</answer>
 	</question>
 	<question>
 		<type>radio</type>
