@@ -33,46 +33,6 @@ header{
 #header span{
     text-transform: uppercase;
 }
-#barra{
-    z-index: 4;
-    width: 100%;
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-#barra li {
-    float: left;
-    
-}
-#barra li a {
-	display: block;
-	padding: 16px;
-	text-align: center;
-}
-#barra li a:link {
-    color: white; 
-    background-color: transparent; 
-    text-decoration: none;
-}
-#barra li a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-#barra li a:hover {
-    color: rgb(230, 184, 173);
-    background-color: #111111;
-    text-decoration: none;
-}
-#barra li a:active {
-    color: lightblue;
-    background-color: transparent;
-    text-decoration: none;
-}
 
 #Presentacion, #todo, #Final{
     text-align: center;
@@ -260,18 +220,18 @@ footer #adicional ul li{
     width: 100%;
 
 }
-footer ul #barra li a{
+footer ul li a{
     text-decoration: none;
     color: aliceblue;
 }
-#adicional ul #barra li a{
+#adicional ul li a{
     border: solid 2px red;
     border-radius: 0.5em;
     padding: 5% 0;
 }
-#personal ul #barra li a:hover{
+#personal ul li a:hover{
     color: red;
 }
-#adicional ul #barra li a:hover{
+#adicional ul li a:hover{
     background-color: red;
 }
