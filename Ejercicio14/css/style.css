@@ -86,13 +86,111 @@ header{
     text-decoration: none;
 }
 .pregunta{
-    border: 2em;
+    border: 0.2em;
+    border-style: solid;
     border-radius: .5em;
-    border-color: aliceblue;
+    border-color: grey;
     width: 80%;
     margin: 0 152.250px 2% 152.34px;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
+input[type = 'text']{	
+	font-family: 'Varela Round', Arial, sans-serif;
+	font-size: 1.2em;
+}
+.title {
+	font-size: 1.1em;
+}
+.tit {	
+	font-size: 1.14em;
+}
+input[type = 'checkbox']{  
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+input[type = 'radio']{  
+	margin-top: 2%;
+}
+select {
+	font-family: 'Varela Round', Arial, sans-serif;
+	background-color: white;
+	font-size: 1.2em;
+}
+#mult, #mult2 {	
+    padding: 1% 1%;
+}
+option {
+	margin-bottom: 2%;
+	font-size: 1em;
+}
+label {
+	font-size: 1.2em;
+}
+#submit {
+	text-align: center;
+	
+}
+#botonSubmit {
+    background-color: #229a65;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #229a65;
+	border-style: solid;
+    font-size: 16px;
+	border-radius: 10px;
+	border-color: #333333;
+	border-width: 2px;
+}
+#botonSubmit:hover {
+	background-color: #bacc51;
+}
+#crono {
+	z-index: 5;
+	position: fixed;
+	top: 17%;
+	right: 10%;
+	width: 5%;
+	height: 3%;
+	background-color:rgba(0, 0, 0, 0.5);
+	border-style: solid;
+	border-color: #333333;
+	border-width: 5px;
+	border-radius: 10px;
+	font-size: 2em;
+	color:white;
+}
+
+#cronoN {
+	position: absolute;
+	top: 18.5%;
+    right: 2%;
+}
+#nota {
+    border: 0.2em;
+    border-style: solid;
+    border-radius: .5em;
+    border-color: grey;
+    width: 80%;
+    margin: 0 152.250px 2% 152.34px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#tit {
+	padding: 0.5%;
+}
+.fa-check:before {
+    content: "\f00c";
+    color: mediumseagreen;
+}
+.fa-times:before {
+    content: "\f00c";
+    color: red;
+}
+
 /*
 #pregunta1, #pregunta2, #pregunta3, #pregunta4, #pregunta5, #pregunta6, #pregunta7, #pregunta8, #pregunta9, #pregunta10{
     text-align: justify;
