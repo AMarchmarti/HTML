@@ -182,56 +182,19 @@ label {
 #tit {
 	padding: 0.5%;
 }
-.fa-check:before {
-    content: "\f00c";
-    color: mediumseagreen;
-}
-.fa-times:before {
-    content: "\f00c";
-    color: red;
-}
+
 
 #video{
     text-align: center;
 }
-footer{
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    margin:25% 0 0 0 ;
-    background-color:rgba(0, 0, 0, 0.5);
-}
-footer p{
-    width: 30%;
-    margin:0;
-    display: inline-block;
-}
-
-#personal, #adicional{
-    display: inline-block;
-    margin: 0 5%;
-
-}
-footer #personal ul li{
-    margin: 5% 0;
-}
-footer #adicional ul li{
-    margin: 15.031px 0;
-    width: 100%;
-
-}
-footer ul li a{
-    text-decoration: none;
-    color: aliceblue;
-}
-#adicional ul li a{
-    border: solid 2px red;
-    border-radius: 0.5em;
-    padding: 5% 0;
-}
-#personal ul li a:hover{
-    color: red;
-}
-#adicional ul li a:hover{
-    background-color: red;
+#pie {
+	z-index: 2;
+	position: fixed;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	padding: 0.5%;
+	background-color: #333333;
+	font-size: 0.8em;
+	color: white;
 }
