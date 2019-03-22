@@ -95,28 +95,6 @@ header{
     width: 80%;
     margin: auto;
 }
-#ins{
-    width:20%;
-    text-align: center;
-    margin:auto;
-
-}
-#ins h3 a{
-    text-align: center;
-    text-decoration: none;
-    border: solid 2px red; 
-    border-radius: 0.5em;
-}
-
-#ins h3 a:link{
-    color:white;
-}
-#ins h3 a:hover{
-    background-color: red;
-}
-#ins h3 a:visited{
-    color: white;
-}
 
 #formulario{
     display: inline-block;
@@ -233,6 +211,8 @@ label {
 
 #video{
     text-align: center;
+    width: 560;
+    height: 315;
 }
 #pie {
 	z-index: 2;

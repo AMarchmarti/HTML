@@ -33,7 +33,46 @@ header{
 #header span{
     text-transform: uppercase;
 }
+#barra{
+    z-index:4;
+	position: relative;
+	top: 16%;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
+#barra li {
+    float: left;
+    
+}
+#barra li a {
+	display: block;
+	padding: 16px;
+	text-align: center;
+}
+#barra li a:link {
+    color: white; 
+    text-decoration: none;
+}
+#barra li a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+#barra li a:hover {
+    color: rgb(230, 184, 173);
+    background-color: #111111;
+    text-decoration: none;
+}
+#barra li a:active {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
 #Presentacion, #todo, #Final{
     text-align: center;
     position: relative;
@@ -55,43 +94,22 @@ header{
     width: 80%;
     margin: auto;
 }
-#ins{
-    width:20%;
-    text-align: center;
-    margin:auto;
 
-}
-#ins h3 a{
-    text-align: center;
-    text-decoration: none;
-    border: solid 2px red; 
-    border-radius: 0.5em;
-}
-
-#ins h3 a:link{
-    color:white;
-}
-#ins h3 a:hover{
-    background-color: red;
-}
-#ins h3 a:visited{
-    color: white;
-}
 
 #formulario{
-    display: inline-block;
+    
     text-align: center;
-    position: relative;
-    margin: 1% 10% 5% 10%;
+    width: auto;
     text-decoration: none;
 }
 .pregunta{
-    border: 0.2em;
-    border-style: solid;
-    border-radius: .5em;
-    border-color: grey;
-    width: 80%;
-    margin: 0 152.250px 2% 152.34px;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	padding: 3%;
+	border-style: solid;
+	border-color: #333333;
+	border-width: 2px;
+	border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
 
 }
@@ -106,27 +124,25 @@ input[type = 'text']{
 	font-size: 1.14em;
 }
 input[type = 'checkbox']{  
-    margin-top: 2%;
-    font-size: 1.2em;
+    margin-top: 10%;
 }
 input[type = 'radio']{  
-	margin-top: 2%;
+	margin-top: 10%;
 }
 select {
 	font-family: 'Varela Round', Arial, sans-serif;
 	background-color: white;
-	font-size: 1.2em;
+    font-size: 1.2em;
+    overflow: auto;
 }
 #mult, #mult2 {	
     padding: 1% 1%;
 }
 option {
-	margin-bottom: 2%;
-	font-size: 1em;
+	margin-bottom: 4%;
+
 }
-label {
-	font-size: 1.2em;
-}
+
 #submit {
 	text-align: center;
 	
@@ -150,11 +166,11 @@ label {
 	background-color: #bacc51;
 }
 #crono {
-	z-index: 5;
-	position: fixed;
-	top: 17%;
+	z-index: 6;
+	position: fixed; 
+    top:14.8%;
 	right: 10%;
-	width: 5%;
+	width: 10%;
 	height: 3%;
 	background-color:rgba(0, 0, 0, 0.5);
 	border-style: solid;
@@ -167,26 +183,34 @@ label {
 
 #cronoN {
 	position: absolute;
-	top: 18.5%;
-    right: 2%;
+	top: 25%;
+    left: 10%;
 }
 #nota {
     border: 0.2em;
     border-style: solid;
     border-radius: .5em;
     border-color: grey;
-    width: 80%;
+    top: 27%;
+	left: 8%;
+	width: 80%;
+	min-height: 63%;	
+	padding: 2%;
     margin: 0 152.250px 2% 152.34px;
     background-color: rgba(0, 0, 0, 0.5);
+    border-width: 2px;
+	border-radius: 10px;
 }
 #tit {
 	padding: 0.5%;
 }
 
-
 #video{
+    width: 560;
+    height: 315;
     text-align: center;
 }
+
 #pie {
 	z-index: 2;
 	position: fixed;
