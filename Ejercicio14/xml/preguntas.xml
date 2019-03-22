@@ -10,12 +10,12 @@
 	</question>
 	<question>
 		<type>text</type>
-		<title>2. ¿De qué forma se saludan y se despiden?</title>
+		<title>¿De qué forma se saludan y se despiden?</title>
 		<answer>El emperador protege, el emperador provee</answer> 
 	</question>
 	<question>
 		<type>select</type>
-		<title>3. ¿Cuál de los siguientes juegos usa un sistema que se tiren tantos dados como la suma del atributo y la habilidad que se va a efectuar y cogemos el atributo usado?</title>
+		<title>¿Cuál de los siguientes juegos usa un sistema que se tiren tantos dados como la suma del atributo y la habilidad que se va a efectuar y cogemos el atributo usado?</title>
 		<option>Pistola Láser</option>
         <option>Escopeta</option>
         <option>Fusil Láser</option>
@@ -25,7 +25,7 @@
 	</question>
 	<question>
 		<type>select</type>
-		<title>4.  ¿De qué color es el Dragón que hace que queramos o bien enfrentarnos a él por afán de superación o huir como almas condenadas?</title>
+		<title>¿De qué color es el Dragón que hace que queramos o bien enfrentarnos a él por afán de superación o huir como almas condenadas?</title>
 		<option>Dorado</option>
         <option>Azul</option>
         <option>Rojo</option>
@@ -34,7 +34,7 @@
 	</question>
 	<question>
 		<type>multiple</type>
-		<title>5. ¿Cuál de las siguientes opciones pertenecen a este juego?</title>
+		<title>¿Cuál de las siguientes opciones pertenecen a este juego?</title>
 		<option>Grulla</option>
         <option>Sugenya</option>
         <option>Matsu</option>
@@ -47,7 +47,7 @@
 	</question>
 	<question>
 		<type>multiple</type>
-		<title>6. ¿Cuál de los siguientes juegos usa un sistema que se tiren tantos dados como la suma del atributo y la habilidad que se va a efectuar y cogemos el atributo usado?</title>
+		<title>¿Cuál de los siguientes juegos usa un sistema que se tiren tantos dados como la suma del atributo y la habilidad que se va a efectuar y cogemos el atributo usado?</title>
 		<option>Leyenda 5 anillos</option>
         <option>Pathfinder</option>
         <option>Warhammer: Fantasy</option>
@@ -57,7 +57,7 @@
 	</question>
 	<question>
 		<type>checkbox</type>
-		<title>7. ¿Cuál de los siguientes juegos NO forma parte de este mundo?</title>
+		<title>¿Cuál de los siguientes juegos NO forma parte de este mundo?</title>
 		<option>Pathfinder</option>
 		<option>Leyenda 5 anillos</option>
         <option>Arenas Ardientes</option>
@@ -67,7 +67,7 @@
 	</question>
 	<question>
 		<type>checkbox</type>
-		<title>8. Y en España te pueden multar por... (señala las verdaderas)</title>
+		<title>Y en España te pueden multar por... (señala las verdaderas)</title>
 		<option>  ... conducir sin camiseta.</option>
 		<option>  ... conducir descalzo, con tacones o con chanclas.</option> 
 		<option>  ... conducir todo el tiempo por el carril izquierdo o el central estando libre el derecho.</option> 
@@ -80,16 +80,16 @@
 	</question>
 	<question>
 		<type>radio</type>
-		<title>9. Ahora bien, en términos de rol que ha efectuado el protagonista de la escena que ha desencadenado de tal forma.</title>
+		<title>Ahora bien, en términos de rol que ha efectuado el protagonista de la escena que ha desencadenado de tal forma.</title>
 		<option>Pifia!</option>
         <option>Ataque de Oportunidad</option>
-        <option>Enfrentarse con dotes sin adquirir o bien no bien usadas"> Enfrentarse con dotes sin adquirir o bien no bien usadas</option>
+        <option>Enfrentarse con dotes sin adquirir o bien no bien usadas</option>
         <option>Una mala decisión</option>
         <answer>1</answer>
 	</question>
 	<question>
 		<type>radio</type>
-		<title>10. ¿Cuál es la función de un Master?</title>
+		<title>¿Cuál es la función de un Master?</title>
 		<option>Ser el dios que castiga a sus jugadores</option>
         <option> Dirigir a los jugadores hacia una muerte inminente</option>
         <option> Dirigir de forma correcta una o varias seciones de cuaquier juego en concenso con los jugadores para que todos os divertáis</option>
